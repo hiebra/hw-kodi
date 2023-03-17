@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.executable.hw.softalks.com" version="0.0.1" 
+    name="Hello, World!" provider-name="Santiago Ruiz">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.debuggable.softalks.com" version="0.0.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="src/main.py">
+        <provides>executable</provides>
+    </extension>
+</addon>
